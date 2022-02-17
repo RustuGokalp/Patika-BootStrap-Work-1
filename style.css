@@ -1,0 +1,96 @@
+* {
+    background-color: #E9ECEF ;
+}
+/* HomePage CSS Start */
+.collapse, .nav-link {
+   background-color:#343A40 ; 
+}
+.product-list {
+    list-style-position: inside;
+}
+.in-line-button:hover {
+    text-decoration: none;
+}
+.about-button {
+    width: 120px; 
+    padding: 7px 10px;
+    margin:0 auto;
+    display: block;
+    font-size: 20px;
+}
+/* HomePage CSS End */
+
+/* About CSS Start */
+.jumbotron {
+    padding-top: 0;
+}
+.about-us {
+    color: blueviolet;
+}
+.vision, .mission {
+    color: #28A745;
+}
+/* About CSS End */
+
+/* Products Start*/
+.col-md-4 {
+    padding-left: 5rem;
+}
+.products {
+    color: blueviolet;
+}
+.card {
+    width: 18rem;
+}
+.card-img-top {
+    position: relative;
+}
+.discount {
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    top: 15px;
+    left: 0px;
+    text-align: center;
+    opacity: 0.8;
+}
+/* Products End*/
+
+/* Form Start */
+label, input, textarea {
+    text-align:center;
+    margin:0 auto;
+    display: block;
+}
+.form-group {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.form-control {
+    width: 50%;
+}
+#contact ul {
+    list-style-type: none;
+}
+#contact ul li {
+     display: inline-block;
+     align-items: center;
+}
+#contact ul li a {
+    padding: 1rem;
+    font-size: 3rem;
+    margin-left: 15rem;
+}
+.btn-primary {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin:0 auto;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* Form End */
